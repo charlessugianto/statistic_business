@@ -1,5 +1,5 @@
 # statistic_business
-Link youtube: abc.com
+Link youtube: https://youtu.be/3_xdnm-ln6o?si=eierJSZLdw4yPyWU
 
 # 1. Background dan Tujuan Analisa
 Dalam project kali ini, peneliti akan mengolah dataset yang menggambarkan pendapatan individu berdasarkan berbagai faktor seperti usia, jenis kelamin, pendidikan, posisi pekerjaan, dan pengalaman kerja. Peneliti ingin memahami bagaimana faktor-faktor ini mempengaruhi pendapatan seseorang dan juga untuk melakukan prediksi mengenai pendapatan individu.
