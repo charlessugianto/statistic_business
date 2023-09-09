@@ -53,14 +53,20 @@ Dalam analisis, peneliti akan menggunakan semua variabel prediktor, termasuk int
 
 6.3.1 Evaluasi model dengan K-Fold cross validation
 Nilai rata-rata R-squared yang ditemukan adalah sekitar 0,88, mengindikasikan bahwa model ini memiliki kualitas yang baik dan mampu menjelaskan sekitar 88% variasi dalam besaran gaji.
+
 6.3.2 Fitting Model
 Koefisien persamaan regresi di atas menghasilkan intercept yang kurang optimal, karena interpretasinya tidak sesuai (gaji tidak dapat bernilai negatif) dan umumnya usia kerja tidak dimulai dari nol, sehingga variabel usia dicentering.
+
 6.3.3 Centering Variabel Usia
 Average = 37 tahun, digunakan sebagai dasar perhitungan
+
 6.3.4 K Fold Cross Validation
 Tercapai nilai R-squared rata-rata sekitar 0,89, yang mengindikasikan bahwa model ini memiliki kualitas yang baik dan mampu menjelaskan sekitar 89% variasi dalam besaran gaji.
+
 Gaji Bachelor = 68396+3042 ×(Age - 37)−9311×Gender+2561×YearsOfExperience+3×(Age - 37)×YearsOfExperience
+
 Gaji Master = 68396+19574+3042×(Age - 37)−9311×Gender+2561×YearsOfExperience+3×(Age - 37)×YearsOfExperience
+
 Gaji PhD = 68396+26339+3042×(Age - 37)−9311×Gender+2561×YearsOfExperience+3×(Age - 37)×YearsOfExperience
 
 # 7. Penjelasan
